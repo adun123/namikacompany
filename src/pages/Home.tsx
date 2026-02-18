@@ -235,10 +235,7 @@ const [active, setActive] = useState<number | null>(null);
           </h2>
 
           <p className="text-gray-600 leading-relaxed mb-6">
-            Established in 2023, Namika is a modern textile manufacturing
-            company built on discipline, precision, and long-term commitment.
-            We deliver consistent fabric quality for brands that demand
-            professional production standards.
+Namika Bali Group adalah perusahaan manufaktur tekstil modern yang dibangun atas dasar disiplin, ketelitian, dan komitmen jangka panjang. Kami menghadirkan kualitas kain yang konsisten untuk merek-merek yang menuntut standar produksi profesional.
           </p>
 
           <a
