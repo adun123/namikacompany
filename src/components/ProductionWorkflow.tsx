@@ -7,33 +7,34 @@ const workflow = [
     step: "01",
     title: "Material Sourcing",
     description:
-      "We carefully select high-grade yarns and fabrics from trusted suppliers to ensure durability and performance.",
+      "Kami memilih benang dan kain berkualitas tinggi dari supplier terpercaya untuk memastikan daya tahan, kenyamanan, dan performa produk.",
   },
   {
     step: "02",
     title: "Textile Processing",
     description:
-      "Advanced knitting and dyeing systems ensure color consistency, structural integrity, and efficiency.",
+      "Proses knitting dan pewarnaan dilakukan dengan sistem terkontrol untuk menjaga konsistensi warna, kekuatan struktur kain, dan efisiensi produksi.",
   },
   {
     step: "03",
     title: "Garment Construction",
     description:
-      "Our skilled production team transforms textiles into finished garments using precision cutting and stitching.",
+      "Tim produksi kami mengubah textile menjadi garmen siap pakai melalui proses cutting yang presisi dan jahitan yang rapi sesuai standar produksi.",
   },
   {
     step: "04",
     title: "Quality Control",
     description:
-      "Every product undergoes multi-stage inspection to maintain international production standards.",
+      "Setiap produk melalui inspeksi bertahap untuk memastikan kualitas tetap konsisten dan sesuai standar internasional.",
   },
   {
     step: "05",
     title: "Packaging & Delivery",
     description:
-      "Products are professionally packed and prepared for domestic and global distribution.",
+      "Produk dikemas secara profesional dan dipersiapkan untuk pengiriman domestik maupun distribusi internasional.",
   },
 ];
+
 
 export default function ProductionWorkflow() {
   return (

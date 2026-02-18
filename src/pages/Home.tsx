@@ -175,7 +175,7 @@ const [active, setActive] = useState<number | null>(null);
               </Link>
 
               <Link
-                to="/services"
+                to="/production"
                 className="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide border border-white/20 rounded-full text-white hover:bg-white/10 transition-all duration-300"
               >
                 View Capabilities

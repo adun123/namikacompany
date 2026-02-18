@@ -52,9 +52,8 @@ export default function ProductionHero() {
             transition={{ duration: 1 }}
             className="max-w-2xl mx-auto text-lg text-white/70 mb-10"
           >
-            Our integrated textile and garment production facility is designed
-            for scalability, efficiency, and uncompromising quality control —
-            ensuring every product meets international standards.
+      Fasilitas produksi textile dan garmen terintegrasi kami dibangun untuk mendukung skalabilitas, efisiensi operasional, dan pengendalian kualitas tanpa kompromi,
+      sehingga setiap produk yang dihasilkan memenuhi standar internasional.
           </motion.p>
 
           <motion.div
