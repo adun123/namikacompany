@@ -38,19 +38,22 @@ export default function Contact() {
           >
             <div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">info@namika.co.id</p>
+              <p className="text-gray-600">bussinesnamika@gmail.com</p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-2">Phone</h3>
-              <p className="text-gray-600">+62 812 3456 7890</p>
+              <p className="text-gray-600">+62 812 1501 8957</p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-2">Office Address</h3>
               <p className="text-gray-600">
-                Jl. Industrial Raya No. 123 <br />
-                Bandung, Indonesia
+                Jl. Kopo Permai I Jl. Blk. P No.8, Sukamenak,
+                <br />
+                Kec. Margahayu, Kabupaten Bandung,
+                <br />
+                Jawa Barat 40227
               </p>
             </div>
           </motion.div>

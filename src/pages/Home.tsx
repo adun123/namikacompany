@@ -70,7 +70,7 @@ const features = [
     description:
       "Dari pemilihan bahan, cutting, sewing, hingga finishing dan quality control — semua terintegrasi dalam satu sistem produksi.",
     image:
-      "https://images.unsplash.com/photo-1593032465175-481ac7f4013d?q=80&w=1200&auto=format&fit=crop",
+      "/images/trusted.jpeg",
   },
   {
     title: "PO & Custom System",
@@ -84,7 +84,7 @@ const features = [
     description:
       "Dipercaya oleh berbagai brand lokal untuk segmen muslim wear, ladies, menswear, dan sports apparel.",
     image:
-      "https://images.unsplash.com/photo-1520975922284-1b67f9a4a3e3?q=80&w=1200&auto=format&fit=crop",
+       "/images/endpoint.jpeg",
   },
 ];
 
@@ -216,6 +216,48 @@ const [active, setActive] = useState<number | null>(null);
         </div>
       </div>
     </section>
+    
+
+    {/* INTRODUCTION SPLIT LAYOUT */}
+
+    <section className="py-24 bg-white text-gray-900">
+      
+      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+        {/* Left Content */}
+        <div>
+          <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-6">
+            Introduction
+          </p>
+
+          <h2 className="text-4xl font-bold mb-6 leading-tight">
+            A Family-Owned Textile Manufacturer Focused on Quality.
+          </h2>
+
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Established in 2023, Namika is a modern textile manufacturing
+            company built on discipline, precision, and long-term commitment.
+            We deliver consistent fabric quality for brands that demand
+            professional production standards.
+          </p>
+
+          <a
+            href="/about"
+            className="inline-block mt-4 text-sm font-semibold text-black border-b border-black hover:opacity-70 transition"
+          >
+            Learn More About Us →
+          </a>
+        </div>
+
+          {/* Right Visual */}
+          <div className="bg-gray-100 rounded-2xl h-80 flex items-center justify-center">
+        
+            <img src="/images/namikalogo.png" alt="Textile and garment production" />
+          </div>
+
+      </div>
+    </section>
+
 
 
 
@@ -226,7 +268,8 @@ const [active, setActive] = useState<number | null>(null);
       className="relative overflow-hidden py-28 md:py-36"
     >
       {/* subtle background glow */}
-      <div className="pointer-events-none absolute -top-32 left-1/2 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-neutral-200/40 blur-3xl dark:bg-neutral-800/40" />
+      <div className="pointer-events-none absolute top-1/2 left-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-neutral-200/40 blur-3xl dark:bg-neutral-800/40" />
+
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         {/* Heading */}

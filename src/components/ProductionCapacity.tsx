@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   {
-    number: 50000,
+    number: 150000,
     label: "Monthly Production Capacity",
     suffix: "+ pcs",
   },

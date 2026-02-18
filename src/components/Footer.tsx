@@ -77,9 +77,31 @@ export default function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300 mb-4">
               Contact
             </h4>
+
             <div className="space-y-3 text-sm text-gray-400">
-              <p>Email: info@namika.co.id</p>
-              <p>Jakarta, Indonesia</p>
+              <p>
+                Email:{" "}
+                <a
+                  href="mailto:bussinesnamika@gmail.com"
+                  className="hover:text-white transition"
+                >
+                  bussinesnamika@gmail.com
+                </a>
+              </p>
+
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Jl.+Kopo+Permai+I+Jl.+Blk.+P+No.8,+Sukamenak,+Kec.+Margahayu,+Kabupaten+Bandung,+Jawa+Barat+40227"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block hover:text-white transition"
+              >
+                Jl. Kopo Permai I Jl. Blk. P No.8, Sukamenak,
+                <br />
+                Kec. Margahayu, Kabupaten Bandung,
+                <br />
+                Jawa Barat 40227
+              </a>
+
               <Link
                 to="/contact"
                 className="inline-block mt-2 px-5 py-2 rounded-full bg-white text-black text-xs font-semibold hover:scale-105 transition"
@@ -88,6 +110,7 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+
 
         </div>
 

@@ -37,14 +37,24 @@ export default function () {
         <div className="flex items-center justify-between h-20">
 
           {/* Logo */}
-          <Link to="/" className="flex flex-col leading-tight">
-            <span className="text-lg font-semibold text-white tracking-tight">
-              Namika
-            </span>
-            <span className="text-xs text-gray-400">
-              Textile & Manufacturing
-            </span>
+          {/* Logo */}
+          <Link to="/" className="flex items-center gap-4">
+            <img
+              src="/images/namikalogo.png"
+              alt="Namika"
+              className="h-15 w-auto"
+            />
+            <div className="leading-tight">
+              <span className="block text-lg font-semibold text-white">
+                Namika
+              </span>
+              <span className="block text-xs text-gray-400 tracking-wide">
+                Textile & Manufacturing
+              </span>
+            </div>
           </Link>
+
+
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-300">

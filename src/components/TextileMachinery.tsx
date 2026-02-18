@@ -6,17 +6,17 @@ const machines = [
   {
     title: "High-Speed Knitting Machines",
     desc: "Modern circular knitting systems designed for high-volume and precision fabric production.",
-    image: "/images/knitting-machine.jpg",
+    image: "/images/knitting-machine.jpeg",
   },
   {
     title: "Automated Dyeing System",
     desc: "Closed-loop dyeing technology ensuring color consistency and reduced material waste.",
-    image: "/images/dyeing-machine.jpg",
+    image: "/images/dyeing-machine.jpeg",
   },
   {
     title: "Fabric Finishing Line",
     desc: "Advanced finishing processes enhancing durability, texture, and performance standards.",
-    image: "/images/finishing-line.jpg",
+    image: "/images/finishing-line.jpeg",
   },
 ];
 
