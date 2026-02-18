@@ -46,7 +46,7 @@ export default function OurLeadership(): JSX.Element {
           "Sebagai Komisaris, beliau memastikan perusahaan bertumbuh dengan pijakan yang sehat—berorientasi jangka panjang, bukan sekadar hasil cepat.",
         ],
         tags: ["Governance", "Resilience", "Integrity"],
-        imageSrc: "/images/ayahjas.png",
+        imageSrc: "/images/ayahjasv2.png",
       },
       {
         name: "Nabiel Faikhar Ahsan, A.Md.T.",

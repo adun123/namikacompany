@@ -67,11 +67,12 @@ export default function FoundersVision(): JSX.Element {
             className="relative"
           >
             <div className="rounded-3xl overflow-hidden border border-gray-800 shadow-xl">
-              <img
+             <img
                 src="/images/Fotomamah.jpeg"
                 alt="Founder - Leli Basuki"
-                className="w-full h-[520px] object-cover grayscale hover:grayscale-0 transition duration-700"
+                className="w-full h-[520px] object-cover transition duration-700 hover:brightness-105 hover:contrast-105"
               />
+
             </div>
 
             {/* Badge */}

@@ -238,12 +238,12 @@ const [active, setActive] = useState<number | null>(null);
 Namika Bali Group adalah perusahaan manufaktur tekstil modern yang dibangun atas dasar disiplin, ketelitian, dan komitmen jangka panjang. Kami menghadirkan kualitas kain yang konsisten untuk merek-merek yang menuntut standar produksi profesional.
           </p>
 
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="inline-block mt-4 text-sm font-semibold text-black border-b border-black hover:opacity-70 transition"
           >
             Learn More About Us →
-          </a>
+          </Link>
         </div>
 
           {/* Right Visual */}
